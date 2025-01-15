@@ -200,7 +200,7 @@ How does the Karplus-Strong algorithm achieve the above purpose through rich har
 
 You read that right, the Karplus-Strong algorithm can be used to generate drum sounds. Kevin Karplus and Alex Strong mentioned this in their paper [2]. However, compared to drum sounds, the algorithm works better for generating plucked string sounds, so it is mainly used for string instruments (especially plucked instruments like guitars).
 
-You may have noticed~~(or not)~~, why always add "rich" before harmonics? Is it necessary? Can "not rich" or very few harmonics work? Good question! The answer is yes.
+You may have noticed ~~(or not)~~ , why always add "rich" before harmonics? Is it necessary? Can "not rich" or very few harmonics work? Good question! The answer is yes.
 
 First, when the harmonic components in the signal are relatively small or few, it means that the signal mainly consists of the fundamental frequency component, and the harmonic components have little impact on the overall signal. Such a signal may have a relatively pure timbre because harmonics usually add rich overtones and timbre characteristics to the signal. When the harmonic components are very small, the signal's timbre may be closer to that of a single sound source (such as a sine wave).
 
