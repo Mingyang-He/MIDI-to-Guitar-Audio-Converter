@@ -1,34 +1,36 @@
-* [English](README.md)   [中文](README-ZH.md)
+[English](README.md)   [中文](README-ZH.md)
+
+---
 
 ![GitHub License](https://img.shields.io/github/license/Mingyang-He/MIDI-to-Guitar-Audio-Converter)     ![Static Badge](https://img.shields.io/badge/Python-3.13.1-blue?link=https%3A%2F%2Fwww.python.org%2Fdownloads%2Frelease%2Fpython-3131%2F)     ![Static Badge](https://img.shields.io/badge/numpy-blue)   ![Static Badge](https://img.shields.io/badge/mido-blue)   ![Static Badge](https://img.shields.io/badge/scipy-blue)   ![Static Badge](https://img.shields.io/badge/tqdm-blue)
 
-# About
+### About
 
 MIDI to Guitar Audio Converter is a MIDI to guitar audio tool based on the Karplus-Strong algorithm. It can convert MIDI files into realistic guitar audio files by adjusting parameters such as sampling rate, decay factor, and harmonic time. It is suitable for music creation, education, and entertainment.
 
-# Background
+### Background
 
 This is my digital signal processing course assignment. It is simple and very interesting, so I want to share it with everyone.
 
-# Features
+### Features
 
 * Developed in Python, providing corresponding debugging information during program execution for user convenience
 * Greatly optimized in terms of computation speed
 * Currently able to process multi-track MIDI files and convert them into single-track WAV files.
 
-# Usage
+### Usage
 
 Please go to: [Instruction manual · Mingyang-He/MIDI-to-Guitar-Audio-Converter Wiki](https://github.com/Mingyang-He/MIDI-to-Guitar-Audio-Converter/wiki/Instruction-manual)
 
-# Environment and Dependencies
+### Environment and Dependencies
 
 Please go to: [Development and Runtime Environment · Mingyang-He/MIDI-to-Guitar-Audio-Converter Wiki](https://github.com/Mingyang-He/MIDI-to-Guitar-Audio-Converter/wiki/Development-and-Runtime-Environment)
 
-# Technical Principles
+### Technical Principles
 
 Please go to: [Technical Document · Mingyang-He/MIDI-to-Guitar-Audio-Converter Wiki](https://github.com/Mingyang-He/MIDI-to-Guitar-Audio-Converter/wiki/Technical-Document)
 
-# Project Structure
+### Project Structure
 
 > /doc
 
@@ -38,7 +40,7 @@ This directory contains documents related to user instructions, environment, tec
 
 This directory contains the source code of the project.
 
-# Discussion and Feedback
+### Discussion and Feedback
 
 To post related discussions and questions, please go to GitHub here:
 
@@ -50,13 +52,13 @@ To report bugs and request new features, please go to GitHub here and select the
 
 *(I think I don't have time to pay attention to these, and probably won't respond, please forgive me)*
 
-# Contribution
+### Contribution
 
 Directly submit a PR or fork it to your own repository and improve it.
 
 *(I think I don't have time to pay attention to these, and probably won't respond, please forgive me)*
 
-# Copyright & License
+### Copyright & License
 
 Copyright (c) 2024 何铭洋. All rights reserved.
 
@@ -66,7 +68,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the The GNU Lesser General Public License along with this program. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
-# Warranty Disclaimer
+### Warranty Disclaimer
 
 MIDI to Guitar Audio Converter is provided "AS IS" without warranty of any kind. The authors and contributors disclaim all implied warranties including: without limitation, any implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
 
